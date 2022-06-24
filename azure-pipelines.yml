@@ -17,7 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: HCLAppScanOnCloud@2
+- task: HCLTechnologies.ApplicationSecurity-VSTS.custom-build-release-task.HCLAppScan@1
   inputs:
     AppSecTestService: 'HCLServiceConnection24062022'
     applications: '67daffae-525e-41a2-8167-2b04b73df83b'
