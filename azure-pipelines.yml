@@ -18,7 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-  - task: HCLAppScanOnCloud@2
+  - task: HCLTechnologies.ApplicationSecurity-VSTS.custom-build-release-task.HCLAppScan@1
     inputs:
       AppSecTestService: 'HCLServiceConnection24062022'
       applications: 'f5199746-677c-4270-8274-2d2791e26036'
